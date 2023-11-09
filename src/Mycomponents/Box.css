@@ -1,0 +1,52 @@
+.container {
+    border:none; 
+    border-radius: 8px;/* Add a 1px solid black border to the container */
+    display: flex;
+    background-color: rgba(72, 209, 205, 0.4);
+    flex-direction: column; /* Default direction, horizontal layout */
+    max-width: 400px; /* Adjust as needed */
+    box-shadow: 10px 10px 5px grey;
+    max-height: 20rem;
+  }
+  
+  .image-container {
+    flex-shrink: 1; /* Prevent the image from growing and maintaining its original size *//* Set a fixed width for the image container */
+    height: 200px; /* Set a fixed height for the image container */
+    max-width: 400px;
+    overflow: hidden; 
+    padding: 10px 10px;/* Hide any content that exceeds the fixed size */
+  }
+  
+  img {
+    width: 100%; /* Make sure the image takes the full width of its container */
+    height: 100%; /* Make sure the image takes the full height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  }
+  
+  .content-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 70px;
+    padding: 0 90px;
+    border: none;
+    border-radius: 5px 5px;
+    background-color: rgba(90, 92, 94, 0.3);
+  }
+  
+ 
+@media only screen and (max-width: 540px) {
+    
+.container {
+    display: flex;
+    flex-direction: column; /* Change to a vertical layout on smaller screens */
+    }
+  
+    .image-container {
+      margin-bottom: 20px; /* Add spacing below the image on smaller screens */
+    }
+  }
+  
