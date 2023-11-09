@@ -4,9 +4,9 @@
     display: flex;
     background-color: rgba(72, 209, 205, 0.4);
     flex-direction: column; /* Default direction, horizontal layout */
-    max-width: 400px; /* Adjust as needed */
+    max-width: 195px; /* Adjust as needed */
     box-shadow: 10px 10px 5px grey;
-    max-height: 20rem;
+    max-height: 16rem;
   }
   
   .image-container {
