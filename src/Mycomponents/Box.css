@@ -1,6 +1,6 @@
 .container {
     border:none; 
-    border-radius: 8px;/* Add a 1px solid black border to the container */
+    border-radius: 8px;
     display: flex;
     background-color: rgba(72, 209, 205, 0.4);
     flex-direction: column; /* Default direction, horizontal layout */
@@ -42,11 +42,11 @@
     
 .container {
     display: flex;
-    flex-direction: column; /* Change to a vertical layout on smaller screens */
+    flex-direction: column; 
     }
   
     .image-container {
-      margin-bottom: 20px; /* Add spacing below the image on smaller screens */
+      margin-bottom: 20px; 
     }
   }
   
